@@ -10,6 +10,7 @@ html, body {
 html {
     box-sizing: border-box;
     font-size: 1.1rem;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -354,9 +355,6 @@ footer .footer-info .menu-name a:hover {
     color: var(--lime-green);
 }
 
-/* footer .footer-info .footer-cta {
-    text-align: right;
-} */
 
 footer .footer-info .footer-cta .copyright {
     font-size: .8rem;
@@ -366,8 +364,24 @@ footer .footer-info .footer-cta .copyright {
 }
 
 
-
 /* end footer section */
+
+
+
+/* attribution section */
+
+.attribution {
+    font-size: .6rem; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 3%, 67%);
+}
+
+/* end attribution section */
+
+
 
 .hamburger-btn {
     display: none;
@@ -390,7 +404,7 @@ footer .footer-info .footer-cta .copyright {
         width: 90%;
         border-radius: 20px;
         padding: 20px 0;
-        box-shadow: 0px 30px 50px 5px #A0A0A0;
+        box-shadow: 0px 30px 60px 10px #414040;
         line-height: 2.5rem;
         transition: all .3s ease-in-out;
     }
