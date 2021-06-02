@@ -333,10 +333,7 @@ footer .footer-info .footer-cta .copyright {
     
 }
 
-
 /* end footer section */
-
-
 
 /* attribution section */
 
@@ -354,7 +351,6 @@ footer .footer-info .footer-cta .copyright {
 .hamburger-btn {
     display: none;
 }
-
 
 @media only screen and (max-width: 870px) {
 
@@ -406,7 +402,6 @@ footer .footer-info .footer-cta .copyright {
 
 
 /* media quqry for header */
-
 
 @media only screen and (max-width: 1024px) {
     .header-images img:first-child {
@@ -486,7 +481,6 @@ footer .footer-info .footer-cta .copyright {
     }
 }
 
-
 @media only screen and (max-width: 480px) {
     .header-images img:first-child {
         margin-top: 90px;
@@ -504,7 +498,6 @@ footer .footer-info .footer-cta .copyright {
         padding: .5rem;
     }
 }
-
 
 @media only screen and (max-width: 414px) {
     .header-images img:first-child {
@@ -554,7 +547,6 @@ footer .footer-info .footer-cta .copyright {
     }
 }
 
-
 @media only screen and (max-width: 360px) {
     .header-bg-color .header-text h1 {
         font-size: 1.6rem;
@@ -567,7 +559,6 @@ footer .footer-info .footer-cta .copyright {
 }
 
 /* media quary for header */
-
 
 /* media quary for services */
 
