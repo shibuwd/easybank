@@ -577,7 +577,6 @@ footer .footer-info .footer-cta .copyright {
 }
 /* end media quary for services */
 
-
 /* media quary for article section */
 @media only screen and (max-width: 870px) {
     section.article h1 {
@@ -594,7 +593,6 @@ footer .footer-info .footer-cta .copyright {
 }
 
 }
-
 @media only screen and (max-width: 520px) {
     .article .article-wrapper .article-card {
     flex: 1 0 70%;
@@ -602,12 +600,9 @@ footer .footer-info .footer-cta .copyright {
     padding: .8rem;
 }
 }
-
 /* end media quary for article section */
 
-
 /* media quary for footer section */
-
 @media only screen and (max-width: 870px) {
    footer .footer-info {
        display: flex;
