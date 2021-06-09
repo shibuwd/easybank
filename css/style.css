@@ -65,7 +65,6 @@ nav li a{
     position: relative
 }
 
-
 nav li a:hover {
     color: var(--dark-blue);
 }
@@ -101,23 +100,17 @@ nav ul li a:hover::before {
     padding: .6rem 1.3rem;
     border-radius: 3.1rem;
     color: var(--white);
-    /* font-weight: 700; */
     cursor: pointer;
     transition: all .3s ease-in-out background;
     
 }
 
 .btn:hover {
-     background: linear-gradient(to right,var(--bright-cyan), var(--lime-green));
-   
+ background: linear-gradient(to right,var(--bright-cyan), var(--lime-green)); 
 }
-
-
 /* end nav style */
 
-
 /* header section */
-
 .header-wrap {
     display: flex;
     align-items: center;
@@ -127,7 +120,6 @@ nav ul li a:hover::before {
 
 .header-bg-color {
     background: var(--very-light-gray);
-    
 }
 
 .header-text {
@@ -174,12 +166,9 @@ nav ul li a:hover::before {
     line-height: 1.4rem;
     color: var(--grayish-blue);
 }
-
 /* end header section */
 
-
 /* service style */
-
 section.services {
     background: var(--light-grayish-blue);
     padding: 6rem 0;
@@ -219,12 +208,9 @@ section.services .card-wrapper {
     display: flex;
     gap: 2.2rem;  /* experimental */
 }
-
 /* end service style */
 
-
 /* articles style */
-
 section.article {
     padding: 5rem 0;
     background: var(--very-light-gray);
@@ -272,7 +258,7 @@ section.article .article-wrapper .content-info a {
 }
 
 section.article .article-wrapper .content-info a:hover {
-    color: var(--lime-green);
+ color: var(--lime-green);
 }
 
 section.article .article-wrapper p {
@@ -281,12 +267,9 @@ section.article .article-wrapper p {
     line-height: 1.2rem;
     font-size: .85rem;
 }
-
 /* end articles style */
 
-
 /* footer section */
-
 footer {
     background-color: var(--dark-blue);   
     padding: 0 auto;
@@ -308,7 +291,6 @@ footer .footer-info .social-icon {
     gap: .8rem;
 } 
 
-
 footer .footer-info ul li a {
     text-decoration: none;
     color: var(--white);
@@ -325,18 +307,14 @@ footer .footer-info .menu-name a:hover {
     color: var(--lime-green);
 }
 
-
 footer .footer-info .footer-cta .copyright {
     font-size: .8rem;
     padding-top: 1.5rem;
-    color: var(--grayish-blue);
-    
+    color: var(--grayish-blue);  
 }
-
 /* end footer section */
 
 /* attribution section */
-
 .attribution {
     font-size: .6rem; 
     text-align: center;
@@ -345,7 +323,6 @@ footer .footer-info .footer-cta .copyright {
 .attribution a {
     color: hsl(228, 3%, 67%);
 }
-
 /* end attribution section */
 
 .hamburger-btn {
@@ -397,12 +374,9 @@ footer .footer-info .footer-cta .copyright {
     }
 
   }
-
 /* end media quary for nav */
 
-
 /* media quqry for header */
-
 @media only screen and (max-width: 1024px) {
     .header-images img:first-child {
     position: relative;
